@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "id": "1",
+      "name": "Unrestricted information",
+      "folders": [
+        {
+          "id": "3",
+          "name": "2000",
+          "folders": [
+            {
+              "id": "5",
+              "name": "12345"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Restricted information",
+      "folders": [
+        {
+          "id": "4",
+          "name": "2000",
+          "folders": [
+            {
+              "id": "6",
+              "serial": "12345"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

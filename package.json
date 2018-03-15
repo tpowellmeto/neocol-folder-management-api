@@ -1,0 +1,28 @@
+{
+  "name": "neocol-folder-management",
+  "version": "1.0.0",
+  "description": "neocol folder management challenege",
+  "main": "src/main/js/main.js",
+  "scripts": {
+    "start": "node src/main/js/main.js",
+    "debug": "DEBUG=* node src/main/js/main.js",
+    "test": "npm run utest && npm run itest",
+    "utest": "./node_modules/.bin/nyc ./node_modules/.bin/mocha src/test/js/*",
+    "itest": "./node_modules/.bin/nyc ./node_modules/.bin/mocha src/itest/js/*"
+  },
+  "author": "thomas.powell",
+  "dependencies": {
+    "nconf": "^0.10.0",
+    "restify": "^6.3.4",
+    "restify-errors": "^6.0.0",
+    "restify-router": "^0.5.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "get-port": "^3.2.0",
+    "mocha": "^5.0.4",
+    "node-fetch": "^2.1.1",
+    "nyc": "^11.6.0",
+    "sinon": "^4.4.3"
+  }
+}
